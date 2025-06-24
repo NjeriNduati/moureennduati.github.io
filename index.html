@@ -5,124 +5,88 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Njeri Nduati | Data Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="background-overlay"></div>
 
+  <div class="content">
 
+    <!-- Hero -->
+    <header class="hero">
+      <img src="assets/profile.png" alt="Njeri Nduati" class="profile-pic" />
+      <h1>Njeri Nduati</h1>
+      <p>Data Analyst | Turning complexity into clarity</p>
+      <a href="assets/resume.pdf" class="btn" download>📄 Download Resume</a>
+    </header>
 
-<!-- HERO -->
-<header class="hero-centered">
-  <img src="assets/profile.png" alt="Njeri Nduati" class="profile-pic"/>
-  <h1>Njeri Nduati</h1>
-  <p>Data Analyst | Turning raw data into impactful insights</p>
-  <a href="assets/NJERI NDUATI RESUME JUNE 2025.pdf" class="btn" download>📄 Download Resume</a>
-</header>
+    <!-- Executive Summary -->
+    <section class="glass-card">
+      <h2>Executive Summary</h2>
+      <p>I am a data analyst passionate about translating data into meaningful insights. With experience in machine learning, Power BI, and impact evaluation, I create solutions that are not just smart, but socially impactful.</p>
+    </section>
 
+    <!-- Tools -->
+    <section class="glass-card">
+      <h2>Tools I Use</h2>
+      <div class="tool-grid">
+        <div class="tool"><img src="assets/python.jpg" alt="Python"><span>Python</span></div>
+        <div class="tool"><img src="assets/sql.jpg" alt="SQL"><span>SQL</span></div>
+        <div class="tool"><img src="assets/excel.jpg" alt="Excel"><span>Excel</span></div>
+        <div class="tool"><img src="assets/powerbi.png" alt="Power BI"><span>Power BI</span></div>
+      </div>
+    </section>
 
+    <!-- Skills -->
+    <section class="glass-card">
+      <h2>My Skills</h2>
+      <div class="skill"><span>Data Cleaning</span><div class="bar"><div class="fill" style="width: 90%"></div></div></div>
+      <div class="skill"><span>Data Visualization</span><div class="bar"><div class="fill" style="width: 95%"></div></div></div>
+      <div class="skill"><span>Machine Learning</span><div class="bar"><div class="fill" style="width: 75%"></div></div></div>
+      <div class="skill"><span>Survey Design</span><div class="bar"><div class="fill" style="width: 85%"></div></div></div>
+    </section>
 
-<!-- INFO GRID: EXECUTIVE SUMMARY (LEFT) & TOOLS (RIGHT) -->
-<section class="info-grid">
-    <!-- EXECUTIVE SUMMARY -->
-<section id="executive-summary" class="executive-summary">
-  <h2>Executive Summary</h2>
-  <p>
-    I am a data enthusiast with experience in Python, Power BI, and statistical analysis. 
-    Passionate about transforming data into actionable insights, I have worked on projects involving housing price prediction, market basket analysis, and social issues like gender-based violence. 
-    Skilled in Jupyter Notebooks, data visualization, and storytelling, I strive to use data to solve real-world problems and help organizations make data-driven decisions.
-  </p>
-</section>
-  <div class="tools">
-    <h2>Tools I Use</h2>
-    <div class="tool-logos">
-      <img src="assets/python.jpg" alt="Python"/>
-      <img src="assets/sql.jpg" alt="SQL"/>
-      <img src="assets/excel.jpg" alt="Excel"/>
-      <img src="assets/powerbi.png" alt="Power BI"/>
-    </div>
+    <!-- Projects -->
+    <section class="glass-card">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="assets/market-basket.jpg" alt="Market Basket">
+          <h3>Market Basket Analysis</h3>
+          <p>Shopper behavior using Apriori algorithm.</p>
+          <a href="https://github.com/NjeriNduati/MARKET-BASKET-ANALYSIS" class="btn" target="_blank">View</a>
+        </div>
+        <div class="project">
+          <img src="assets/boston-housing.jpg" alt="Boston Housing">
+          <h3>Boston Housing Prediction</h3>
+          <p>Real estate price prediction using regression.</p>
+          <a href="https://github.com/NjeriNduati/BOSTON-HOUSING-PROJECT" class="btn" target="_blank">View</a>
+        </div>
+        <div class="project">
+          <img src="assets/gbv.jpg" alt="GBV">
+          <h3>Gender-Based Violence (Kenya)</h3>
+          <p>Insights from survey data on gender-based violence.</p>
+          <a href="https://github.com/NjeriNduati/GENDER-BASED-VIOLENCE-IN-KE" class="btn" target="_blank">View</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote -->
+    <section class="glass-card">
+      <blockquote>
+        "Numbers tell stories — I help translate them into decisions that matter."  
+        <span>– Njeri Nduati</span>
+      </blockquote>
+    </section>
+
+    <!-- Contact -->
+    <footer class="footer">
+      <p>📧 <a href="mailto:moureennduati165@gmail.com">Email Me</a> |
+        <a href="https://linkedin.com/in/moureen-nduati-953588141" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/NjeriNduati" target="_blank">GitHub</a>
+      </p>
+    </footer>
+
   </div>
-
-
-</section>
-
-<section class="work-process-columns">
-
-  <div class="column">
-    <div class="icon">
-      <!-- Clipboard / Survey icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" fill="#5a3e36" viewBox="0 0 24 24" width="40" height="40">
-        <path d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5c0-1.1-.9-2-2-2zM12 3c.55 0 1 .45 1 1h-2c0-.55.45-1 1-1zm5 14H7v-2h10v2zm0-4H7v-2h10v2z"/>
-      </svg>
-    </div>
-    <h3>Collect</h3>
-    <p>
-      With experience in data collection and management, I am proficient in survey design and impact assessment using tools like Kobo Toolbox, Qualtrics, Commcare, and Airtable. I ensure data quality and integrity from diverse sources to support reliable analysis.
-    </p>
-  </div>
-
-  <div class="column">
-    <div class="icon">
-      <!-- Gears / Processing icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" fill="#5a3e36" viewBox="0 0 24 24" width="40" height="40">
-        <path d="M19.43 12.98c.04-.32.07-.65.07-.98s-.03-.66-.07-.98l2.11-1.65a.5.5 0 00.12-.63l-2-3.46a.5.5 0 00-.6-.22l-2.49 1a6.98 6.98 0 00-1.7-.98l-.38-2.65A.5.5 0 0014 2h-4a.5.5 0 00-.49.42l-.38 2.65c-.63.25-1.2.58-1.7.98l-2.49-1a.5.5 0 00-.6.22l-2 3.46a.5.5 0 00.12.63l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98L2.59 14.63a.5.5 0 00-.12.63l2 3.46a.5.5 0 00.6.22l2.49-1c.5.4 1.07.73 1.7.98l.38 2.65a.5.5 0 00.49.42h4a.5.5 0 00.49-.42l.38-2.65a6.978 6.978 0 001.7-.98l2.49 1a.5.5 0 00.6-.22l2-3.46a.5.5 0 00-.12-.63l-2.11-1.65zM12 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z"/>
-      </svg>
-    </div>
-    <h3>Process</h3>
-    <p>
-      I specialize in streamlining and automating data workflows, including data cleaning, transformation, integration, and predictive analysis. I’m skilled in optimizing processes for efficient and accurate data handling.
-    </p>
-  </div>
-
-  <div class="column">
-    <div class="icon">
-      <!-- Bar chart / Visualisation icon -->
-      <svg xmlns="http://www.w3.org/2000/svg" fill="#5a3e36" viewBox="0 0 24 24" width="40" height="40">
-        <path d="M4 22h16v-2H4v2zm2-4h3v-8H6v8zm5 0h3v-14h-3v14zm5 0h3v-5h-3v5z"/>
-      </svg>
-    </div>
-    <h3>Visualise</h3>
-    <p>
-      I am an expert in Power BI and have extensive experience creating interactive dashboards and data visualizations that communicate insights clearly. I also work with Tableau and Flourish, applying best practices to develop user-friendly visual tools for decision-making.
-    </p>
-  </div>
-
-</section>
-
-<!-- PROJECTS -->
-<section class="projects">
-  <h2>Projects</h2>
-  <div class="project-grid">
-    <div class="project">
-      <img src="assets/market-basket.jpg" alt="Market Basket"/>
-      <h3>🛒 Market Basket Analysis (Apriori Algorithm)</h3>
-      <p>This project performs market basket analysis on a retail transactions dataset using the Apriori algorithm. The goal is to uncover patterns and associations between items that are frequently bought together.</p>
-      <a href="https://github.com/NjeriNduati/MARKET-BASKET-ANALYSIS" target="_blank" class="btn">View Project</a>
-    </div>
-    <div class="project">
-      <img src="assets/boston-housing.jpg" alt="Boston Housing"/>
-      <h3>🏠 Boston Housing Prices (predictive model-Linear Regression)</h3>
-      <p>This Project aims to analyze and predict housing prices in the Boston area using machine learning techniques. The dataset includes various factors such as crime rates, property tax rates, and the number of rooms per dwelling, which influence housing prices. By leveraging data analysis and predictive modeling, this project provides insights into the key drivers of real estate prices.</p>
-      <a href="https://github.com/NjeriNduati/BOSTON-HOUSING-PROJECT" target="_blank" class="btn">View Project</a>
-    </div>
-    <div class="project">
-      <img src="assets/gbv.jpg" alt="GBV in Kenya"/>
-      <h3>🚨 Gender-Based Violence in Kenya (Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy))</h3>
-      <p>This project explores survey data to uncover trends in justification for gender violence and its relation to demographic factors, focusing on: - The most common reasons why women experience gender-based violence - Differences in attitudes toward gender violence between men and women - The most common forms of violence - The impact of demographics such as age, education, and residence on attitudes toward gender violence</p>
-      <a href="https://github.com/NjeriNduati/GENDER-BASED-VIOLENCE-IN-KE" target="_blank" class="btn">View Project</a>
-    </div>
-    <div class="project">
-      <img src="assets/supply-chain.jpg" alt="Supply Chain"/>
-      <h3>📦 Supply Chain Dashboard (powerbi)</h3>
-      <p>This Power BI dashboard analyzes key supply chain metrics such as inventory turnover, order cycle time, and supplier performance. It helps identify bottlenecks and improve operational efficiency through interactive visuals and KPI tracking.</p>
-      <a href="https://github.com/NjeriNduati/Supply-chain-operations-PowerBI-workbook" target="_blank" class="btn">View Project</a>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<footer class="contact">
-  <p>📫 Get in touch: <a href="mailto:moureennduati165@example.com">moureennduati165@gmail.com</a> | <a href="www.linkedin.com/in/
-moureen-nduati-953588141" target="_blank">LinkedIn</a></p>
-</footer>
-
 </body>
 </html>
